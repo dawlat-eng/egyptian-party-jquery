@@ -1,0 +1,162 @@
+ body {
+    scroll-behavior: smooth;
+    overflow: hidden;
+  } 
+  
+  header{
+    background-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(214, 46, 51 , 0.6), 
+      rgba(214, 46, 51 , 0.6)
+    ), 
+    url(./image/events-heavenly-header.jpg);
+    height:100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+   .layer h1{
+    font-size: 60px;
+    line-height: 1.2; 
+  }
+
+   header section.side-bar h5{
+    cursor: pointer;
+  }
+
+  div.inner1{
+    display: none;
+  }
+  
+  a{
+    text-decoration: none !important;
+  }
+
+  section.side-bar li{
+   font-size: 30px; 
+   padding-block: 15px;
+   cursor: pointer;
+   padding-right: 15px;
+  }
+
+  section.side-bar button.btn{
+    background-color: white!important;
+    position: relative;
+    left: 80%;
+    top: 20px;
+  }
+
+  section.side-bar li a{
+    transition: all 0.5s;
+  }
+  
+  section.side-bar li a:hover{
+    color: rgb(180, 3, 32) !important;
+  }
+  
+  section#details .container h2{
+    background-color: #E68285 !important;
+    width: 100%;
+    padding-block: 10px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  section#details .container .p{
+    background-color: lightgray !important;
+    padding-inline: 10px;
+    display: none;
+  }
+  
+  section#duration{
+    min-height: 50vh;
+    background-image:linear-gradient(
+      to bottom, 
+      rgba(214, 46, 51, 0.6), 
+      rgba(214, 46, 51, 0.6)
+    ),  url(./image/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-block: 100px;
+  }
+
+  
+   .socialMedia{
+    display: flex;
+  }
+  
+  .socialMedia a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+    margin: 5px;
+    font-size: 20px;
+    padding: 20px;
+    transition: all 0.3s;
+  }
+  
+  .socialMedia a:hover{
+    background-color: rgb(146, 7, 7);
+    color: white;
+    border:1px solid rgb(146, 7, 7);
+  }
+  
+  textarea{
+    height: 200px;
+    resize: vertical;
+  }
+
+  /* .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }  */
+  
+  .loadingScreen{
+    display: flex;
+    background-color: rgba(214, 46, 186, 0.425);
+  }
+  
+  @media (max-width: 768px) {
+    .layer h1 {
+      font-size: 40px; 
+    }
+    .timer h2 {
+      font-size: 2.5rem;
+    }
+    
+  }
+  
+  @media (max-width: 576px) {
+    .layer h1 {
+      font-size: 30px; 
+    }
+      .timer h2 {
+        font-size: 2rem; 
+      }
+    }
+  
+   
